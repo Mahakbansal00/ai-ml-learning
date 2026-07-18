@@ -16,3 +16,13 @@ a=20
 a=a+10
 a+=10
 print(a)#assignment operator
+#type conversion 
+"""2 type 1 is coversion which is automatic and secound is type casting which is done by user"""
+#conersion
+a=10
+b=20.5
+print(a+b)
+#type casting
+a=int("10")
+b=5
+print(a+b)
