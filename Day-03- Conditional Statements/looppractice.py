@@ -72,6 +72,7 @@ for i in range(1,n+1):
   else:
     print("***")
 #10. Write a program to print multiplication table of n using for loops in reversed order.
+
 #11 print 1,22,333,4444,55555
 n= int(input("enter a number"))
 for i in range(0,n):
@@ -79,3 +80,8 @@ for i in range(0,n):
   print(i)
   for j in range(1,i):
     print(i)
+#10. Write a program to print multiplication table of n using for loops in reversed order.
+n = int(input("Enter a number: "))
+
+for i in range(10, 0, -1):
+    print(n * i)
