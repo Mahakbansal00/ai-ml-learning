@@ -12,4 +12,4 @@ for line in log.splitlines():
       print(count) 
    count=count+1
 
-    
+#9. Write a program to find out whether a file is identical and matches the content of another
