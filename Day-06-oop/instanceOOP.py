@@ -1,4 +1,4 @@
-#creatng instance fuction for example avg(self)
+#creatng instance method fuction for example avg(self)
 class student():
     def __init__(self,name,marks):
       self.name=name
