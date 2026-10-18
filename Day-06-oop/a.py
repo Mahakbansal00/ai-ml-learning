@@ -6,5 +6,10 @@ obj=sample()
 obj.a="meeku"
 print(sample.a)
 print(obj.a)
-        
+#4. Add a static method in problem 2, to greet the user with hello.
+class student():
+    @staticmethod
+    def user():#self is not needed in static method
+        print("hello ravi")
+student.user()       
 
