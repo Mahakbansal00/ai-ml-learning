@@ -14,7 +14,7 @@ class Account:
      self.balance+=amount
      print(f"Rs dr. {amount} ")
     def get_balance(self):
-     return self.balace
+     return self.balance
 
 
 
