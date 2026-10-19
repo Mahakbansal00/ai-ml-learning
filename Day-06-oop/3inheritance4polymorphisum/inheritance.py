@@ -45,3 +45,12 @@ class fortuner(toyata):
       print(self.type)
 car1=fortuner("diesel")
 print(type(car1))
+#multiple
+class a:
+   vara=("hello :a")
+class b:
+   varb=("hello :b")
+class c(a,b):
+   varc=("hello :c")
+c1=c()
+print(c1.varc,c1.vara,c1.varb)
