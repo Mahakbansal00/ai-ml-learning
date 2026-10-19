@@ -3,11 +3,12 @@ class instagram():
     def __init__(self,acc_passwrd,id):
         self._acc_passwrd=acc_passwrd
         self.id=id
-    def resetpass(self):
+    def resetpass(self):#only class access password bcz its private
        print(f" {self._acc_passwrd}")
 user1 = instagram("abc123", "meeku")
 print(user1.id) 
 print(user1._acc_passwrd) #private__
+
 
 
 

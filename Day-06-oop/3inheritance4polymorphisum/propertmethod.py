@@ -9,5 +9,5 @@ class  score():
      return (self.math+self.english+self.science)/3
 m1=score(97,98,99)
 print(m1.average)
-m1.math=88
+m1.math=88#marks change
 print(m1.average)
