@@ -14,7 +14,9 @@ class train():
         print("no seat available")
   
     def checkstatus(self):
+     print(self.user)
      print("Avilable seats",self.noofseat)
+     print("Coach type:", self.ticket)
 
     def fare(self):
      print("ticket price",self.price)
