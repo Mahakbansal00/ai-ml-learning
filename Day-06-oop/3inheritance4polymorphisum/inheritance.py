@@ -54,3 +54,20 @@ class c(a,b):
    varc=("hello :c")
 c1=c()
 print(c1.varc,c1.vara,c1.varb)
+#super method()
+class car():#parents class
+   def __init__(self,type):
+     self.type=type
+   @staticmethod
+   def start():
+        print("car started...")
+   @staticmethod
+   def stop():
+        print("car stop.....")
+class toyata(car):#child class
+    def __init__(self,name,type):
+     self.name=name
+     super(). __init__(type)
+   
+car1=toyata("prius","diesel")
+print(car1.type)
