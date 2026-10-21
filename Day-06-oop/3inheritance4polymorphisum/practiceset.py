@@ -98,6 +98,16 @@ class vector:
         return f"{self.vec[0]}i  +{self.vec[1]}j +{self.vec[2]}k "
 v1=vector([7,8,10])
 print(v1)
+#7. Override the __len__() method on vector of problem 5 to display the dimension of the vector
+class vector:
+    def __init__(self,vec):
+        self.vec=vec
+    def __str__(self):
+        return f"len{self.vec[0]}i  +{self.vec[1]}j +{self.vec[2]}k "
+    def __len__(self):
+        return len(self.vec)
+v1=vector([7,8,10])
+print(len(v1))
         
            
            
