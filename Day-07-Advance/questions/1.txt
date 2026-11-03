@@ -1,0 +1,4 @@
+this is 1.txt
+Hello Mahak
+I am learning Python.
+Day 07 practice.
